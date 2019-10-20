@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>signup form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>sign up form</h1>
+    <form action="">
+      <table border="0" cellspacing="15">
+          <tr>
+              <td>first name</td>
+              <td><input type="text" placeholder="first name" required></td>
+          </tr>
+          <tr>
+            <td>last name</td>
+            <td><input type="text" placeholder="last name" required></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td> male<input type="radio" name="radio1" required>female<input type="radio" name="radio1" required></td>
+        </tr>
+        <tr>
+            <td>phone number</td>
+            <td><input type="number"  placeholder="phone mumber" required></td>
+        </tr>
+        <tr>
+            <td >date of birth</td>
+            <td><input id="date" type="date" required ></td>
+        </tr>
+        <tr>
+            <td>email address</td>
+            <td><input type="email"  placeholder="email address" required></td>
+        </tr>
+        <tr>
+            <td>languages known</td>
+            <td><input type="checkbox" >hindi
+                <input type="checkbox">english
+                <br>
+                <input type="checkbox">urdu
+                <input type="checkbox" >punjabi
+            </td>
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="6" cols="22" required></textarea>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td><input type="password"  placeholder="password" required></td>
+        </tr>
+        <tr>
+            <td>confirm password</td>
+            <td><input type="password"  placeholder="confirm password" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input id="btn" type="submit" >
+            </td>
+        </tr>
+      </table>
+    </form>
+    </body>
+</html>
